@@ -5,11 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 #container {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -20,6 +20,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    color: ffffff;
 }
 
 label {
@@ -30,13 +31,14 @@ input {
     padding: 8px;
     margin-top: 5px;
     box-sizing: border-box;
+    background-color: ffffff; /* Change this to your desired color */
 }
 
 button {
     margin-top: 20px;
     padding: 10px;
     background-color: #007BFF;
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
